@@ -7,6 +7,7 @@ namespace gregslist_cs.Models
     public int id { get; set; }
 
     [Required]
+    [Range(1, 9999999)]
     public int price { get; set; }
 
     [Required]
